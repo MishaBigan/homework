@@ -88,7 +88,8 @@ body {
 
 
 .text {
-    width: 696px;
+     position: relative;
+     width: 696px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -96,18 +97,72 @@ body {
     line-height: 42px;
     margin: 0 auto;    
     text-align: center;
-    margin-bottom: 123px;
-    position: relative;
+    margin-bottom: 123px;  
     }
 
-    
-text::after {
-    position: absolute;
+.rectangle {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}   
+
+.rectangle1::before {
+    content: "";
+    position: absolute;      
     width: 178px;
-    height: 121px;    
-    background: #BFDEFB;
+    height: 121px;     
+    top: -121px;
+    border:1px;   
+    background-color: #BFDEFB;   
+    }
+
+.rectangle2::before {
+    content: "";
+    position: absolute;      
+    width: 178px;
+    height: 121px;     
+    top: 125px;
+    border:1px;   
+    background-color: #BFDEFB;   
+}
+    
+.rectangle3::before {
+    content: "";
+    position: absolute;      
+    width: 178px;
+    height: 121px; 
+    left: 1262px;
+    top: 14px;
+    border:1px;   
+    background-color: #BFDEFB;   
+}
+    
+.text2::before {
+    content: "";
+    position: absolute;      
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    left: -30px;
+    top: -56px;
+    border:1px;   
+    background-color: #5C98AB; 
 }
 
+
+.text2::after {
+    content: "";
+    position: absolute;      
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    left: 728px;
+    top: 134px;
+
+    border:1px;   
+    background-color:  #BFDEFB;
+Z 
+}
 
 
 
