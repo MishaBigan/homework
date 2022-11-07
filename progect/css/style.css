@@ -128,7 +128,7 @@ body {
     position: absolute;      
     width: 178px;
     height: 121px; 
-    left: 1262px;
+    right: 0;
     top: 14px;
     border:1px;   
     background-color: #BFDEFB;   
@@ -155,7 +155,6 @@ body {
     border-radius: 50%;
     left: 728px;
     top: 134px;
-
     border:1px;   
     background-color:  #BFDEFB;
 }
@@ -181,7 +180,7 @@ body {
     left: 31px;
     top: 14px ;
     bottom: 63px;
-      font-family: 'Open Sans';
+    font-family: 'Open Sans';
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
@@ -195,6 +194,10 @@ body {
     border: 1px solid #000000;
     padding: 54px 0 11px 34px;
     box-sizing: border-box ;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
     
 }
 
