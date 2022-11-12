@@ -36,9 +36,7 @@ body {
     color: rgba(43, 41, 45, 0.6);
 }
 
-.header_nav {
 
-}
 
 .header_link {
     font-size: 18px;
@@ -51,13 +49,9 @@ body {
     font-weight: bold;
     text-decoration: underline;
     color: #3040C4;
-    
-
-    }
-
-.header_ul {
-    margin-right: 75px;
 }
+
+
 
 .header_li:not(:last-of-type){
     margin-right: 30px;
@@ -115,3 +109,103 @@ body {
 } 
 
 
+
+.header1_tittle {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    margin-top: 90px;  
+    text-align: center;  
+  
+}
+
+
+.header1_text {
+    max-width: 554px;
+    margin: 26px auto 97px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #172342;    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:  repeat(3, 1fr);
+    gap: 40px;
+    align-items:center;
+    margin-bottom: 91px;
+}
+
+.item:nth-child(3), .item:nth-child(4) {
+    grid-row: span 2;
+}
+
+.section6 {
+    color: #ECECEC;
+}
+.section6_pretittle {
+    font-size: 700px;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    color: #2B292D;
+    padding: 108px 0 24px;
+}
+
+.section6_tittle {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;     
+    text-align: center;
+    letter-spacing: -0.5px;  
+     color: #2B292D;
+    
+}
+
+.section6_text { 
+        
+    max-width: 554px;
+    margin: 26px auto 34px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #2B292D;
+    
+}
+
+.header_button1 {
+    height: 48px;
+    width: 160px;
+    border: 1px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
+    border-radius: 2px;
+    font-size: 18px;
+    line-height: 13px;
+    font-weight: bold; 
+    margin-bottom: 111px;
+    border-color:  #1a2ee7; ;
+    margin-left: 10px;
+
+} 
+.header_button1:hover {
+    cursor: pointer;
+    transition: 1s;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #263cfa;    
+}
+
+.flex_button {
+    display: flex;
+    justify-content: center;    
+}
+.section6_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    align-items:center;
+    margin-bottom: 110px;
+
+}
