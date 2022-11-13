@@ -49,6 +49,7 @@ body {
     font-weight: bold;
     text-decoration: underline;
     color: #3040C4;
+    
 }
 
 
@@ -67,7 +68,9 @@ body {
     font-size: 18px;
     line-height: 13px;
     color: #FFFFFF;
-    font-weight: bold;  
+    font-weight: bold; 
+    margin-left: 77px;   
+
 }
 
 .header_button:hover {
@@ -76,7 +79,7 @@ body {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #1a2ee7;
 }
 
-.section1 {
+.section1{
     background-color: #F4F5F7;    
     }
 
@@ -143,9 +146,7 @@ body {
     grid-row: span 2;
 }
 
-.section6 {
-    color: #ECECEC;
-}
+
 .section6_pretittle {
     font-size: 700px;
     font-size: 22px;
@@ -189,8 +190,8 @@ body {
     margin-bottom: 111px;
     border-color:  #1a2ee7; ;
     margin-left: 10px;
-
 } 
+
 .header_button1:hover {
     cursor: pointer;
     transition: 1s;
@@ -199,13 +200,13 @@ body {
 
 .flex_button {
     display: flex;
-    justify-content: center;    
+    justify-content: center; 
+    margin-left: -77px;   
 }
 .section6_grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-        gap: 30px;
-    align-items:center;
-    margin-bottom: 110px;
-
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 110px;    
 }
